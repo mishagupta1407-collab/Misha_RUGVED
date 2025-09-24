@@ -13,12 +13,12 @@ def hill_number(num):
             elif num[i] < num[i - 1]:
                 found = True
             else:
-                return False  # Equal adjacent digits
+                return False  
         else:
             if num[i] < num[i - 1]:
                 continue
             else:
-                return False  # Not strictly decreasing after peak
+                return False  
     
     return found
 
