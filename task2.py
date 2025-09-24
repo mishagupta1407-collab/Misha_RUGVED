@@ -1,7 +1,7 @@
 #Write a python program to sort a string alphabetically and print the count of each character.
 
 def sort_and_count(str):
-    sort_s = ''.join(sorted(str))  # Sort the string alphabetically
+    sort_s = ''.join(sorted(str))  
     count = {}
     
     for char in sort_s:
